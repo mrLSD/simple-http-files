@@ -1,0 +1,5 @@
+{{define "index"}}
+    {{range $index, $element := .}}
+        <h3><a href="{{.Path}}">{{.Name}}</a></h3><br/>
+    {{end}}
+{{end}}
